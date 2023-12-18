@@ -1,0 +1,14 @@
+.item {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  /* margin-bottom: 4px; */
+}
+
+.list {
+  background-color: #ff5757;
+}
+
+.col {
+  margin: 4px 0px;
+}
