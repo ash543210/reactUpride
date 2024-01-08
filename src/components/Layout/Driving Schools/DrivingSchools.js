@@ -6,21 +6,17 @@ import riders from "./SchoolImages/riders.png";
 const DrivingSchools = () => {
   return (
     <Container fluid style={{ padding: "0 0" }}>
-      <div
-        style={{ width: "100%" }}
-        className="d-flex justify-content-center mt-5">
-        <div
-          style={{ width: "100%" }}
-          className="d-flex flex-column align-self-stretch">
-          <div style={{ width: "90%" }} className="align-self-center">
+      <div className="d-flex justify-content-center mt-5 w-100">
+        <div className="d-flex flex-column align-self-stretch px-md-5 w-100">
+          <div style={{}} className="align-self-start w-100 px-md-3">
             <p
               style={{ fontWeight: 600, fontSize: "44px", lineHeight: "66px" }}>
               Recommended Driving Schools
             </p>
           </div>
           <div
-            style={{ width: "90%" }}
-            className="d-flex justify-content-between align-self-center">
+            style={{}}
+            className="d-md-flex d-sm-flex flex-md-row flex-sm-columns justify-content-md-between align-self-start w-100 px-md-3">
             <p
               style={{
                 fontWeight: 400,
@@ -74,54 +70,52 @@ const DrivingSchools = () => {
               </div>
             </div>
           </div>
-          <div style={{ width: "90%" }} className="align-self-center">
-            <div className="d-flex flex-column">
-              <div className="d-flex justify-content-center ">
-                <SchoolInfo
-                  image={sharp}
-                  title={"SharpDrives Driving School- kerekodi"}
-                  address="Kerekodi, Bengaluru"
-                  rating={4.8}
-                  pricing={2500}
-                />
-                <SchoolInfo
-                  image={prerana}
-                  title={"Prerana Driving School- Uttarahalli"}
-                  address="uttarhalli Hobli, bengaluru"
-                  rating={4.5}
-                  pricing={2500}
-                />
-                <SchoolInfo
-                  image={riders}
-                  title={"Riders driving School-ThyagarajNagar"}
-                  address="Thyagaraj Nagar, Bengaluru"
-                  rating={4.9}
-                  pricing={1500}
-                />
-              </div>
-              <div className="d-flex justify-content-center ">
-                <SchoolInfo
-                  image={sharp}
-                  title={"SharpDrives Driving School- kerekodi"}
-                  address="Kerekodi, Bengaluru"
-                  rating={4.8}
-                  pricing={2500}
-                />
-                <SchoolInfo
-                  image={prerana}
-                  title={"Prerana Driving School- Uttarahalli"}
-                  address="uttarhalli Hobli, bengaluru"
-                  rating={4.5}
-                  pricing={2500}
-                />
-                <SchoolInfo
-                  image={riders}
-                  title={"Riders driving School-ThyagarajNagar"}
-                  address="Thyagaraj Nagar, Bengaluru"
-                  rating={4.9}
-                  pricing={1500}
-                />
-              </div>
+          <div className="d-md-flex flex-md-column d-sm-flex flex-sm-column justify-content-md-between px-md-3">
+            <div className="d-md-flex d-sm-flex flex-sm-column flex-md-row justify-content-md-between my-md-4">
+              <SchoolInfo
+                image={sharp}
+                title={"SharpDrives Driving School- kerekodi"}
+                address="Kerekodi, Bengaluru"
+                rating={4.8}
+                pricing={2500}
+              />
+              <SchoolInfo
+                image={prerana}
+                title={"Prerana Driving School- Uttarahalli"}
+                address="uttarhalli Hobli, bengaluru"
+                rating={4.5}
+                pricing={2500}
+              />
+              <SchoolInfo
+                image={riders}
+                title={"Riders driving School-ThyagarajNagar"}
+                address="Thyagaraj Nagar, Bengaluru"
+                rating={4.9}
+                pricing={1500}
+              />
+            </div>
+            <div className="d-md-flex d-sm-flex flex-sm-column flex-md-row justify-content-md-between my-md-4">
+              <SchoolInfo
+                image={sharp}
+                title={"SharpDrives Driving School- kerekodi"}
+                address="Kerekodi, Bengaluru"
+                rating={4.8}
+                pricing={2500}
+              />
+              <SchoolInfo
+                image={prerana}
+                title={"Prerana Driving School- Uttarahalli"}
+                address="uttarhalli Hobli, bengaluru"
+                rating={4.5}
+                pricing={2500}
+              />
+              <SchoolInfo
+                image={riders}
+                title={"Riders driving School-ThyagarajNagar"}
+                address="Thyagaraj Nagar, Bengaluru"
+                rating={4.9}
+                pricing={1500}
+              />
             </div>
           </div>
         </div>

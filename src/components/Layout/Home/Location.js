@@ -17,7 +17,7 @@ const Location = function () {
     "Rajajinagar",
   ];
   return (
-    <Container fluid style={{ paddingBottom: "40px" }}>
+    <Container fluid style={{}}>
       <Row className={classes.list}>
         {locations.map((location, id) => (
           <Col className={classes.col} key={id}>

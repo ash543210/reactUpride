@@ -1,9 +1,10 @@
 import Card from "react-bootstrap/Card";
-
+import classes from "./SchoolInfo.module.css";
 const SchoolInfo = (props) => {
+  const style = "d-sm-block d-md-inline-block " + classes.col4;
   return (
-    <div style={{ display: "inline-block", width: "30%", margin: "30px 25px" }}>
-      <Card style={{ width: "400px", height: "596px" }}>
+    <div className={style} style={{}}>
+      <Card className="w-100 h-100">
         <Card.Img variant="top" src={props.image} />
         <Card.Body className="d-flex flex-column justify-content-between">
           <Card.Title

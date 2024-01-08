@@ -1,16 +1,18 @@
 import image from "../../Assets/personalised.png";
+import classes from "./PersonalisedPrograms.module.css";
 const PersonalisedPrograms = () => {
+  const imageStyle = " " + classes.col4;
   return (
-    <div className="d-flex justify-content-center mt-5">
-      <div className="d-flex flex-column mt-5" style={{ width: "90%" }}>
+    <div className="d-flex justify-content-center my-5">
+      <div className="d-flex flex-column mt-5 px-md-5">
         <div className="align-self-center my-5">
           <p style={{ fontWeight: 600, fontSize: "48px", lineHeight: "46px" }}>
             Personalized Learning Programs
           </p>
         </div>
-        <div className="d-flex my-5">
-          <img className="me-5" style={{ width: "50%" }} src={image}></img>
-          <div className="ms-5 align-self-center">
+        <div className="d-md-flex flex-md-row d-sm-flex d-sm-column my-5 justify-content-md-around">
+          <img className={imageStyle} src={image}></img>
+          <div className="align-self-center">
             <p
               style={{
                 fontWeight: 600,

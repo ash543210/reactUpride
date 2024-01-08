@@ -20,7 +20,7 @@ const Statistics = () => {
           </p>
           <p>for a comprehensive driving learning experience?</p>
         </div>
-        <div className="d-flex justify-content-between mt-2 mb-5">
+        <div className="d-md-flex d-sm-flex flex-sm-column flex-md-row justify-content-between mt-2 mb-5">
           <StatisticsInfo
             value={"1000+"}
             about={"Trained"}
